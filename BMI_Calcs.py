@@ -2,7 +2,7 @@ import json
 
 def BMI_Calculator():
     # Load Json Data
-    with open('C:/Users/sunil kumar sahu/Desktop/BMI.json', 'r') as c:
+    with open('./BMI.json', 'r') as c:
         params = json.load(c)   
     # I just considered the low value as 0 and for max evaluation as 50 but it will not affect the result
     BMI_Range={0:[0,18.5],1:[18.5,24.9],2:[25,29.9],3:[30,34.9],4:[35,39.9],5:[40,50]}
